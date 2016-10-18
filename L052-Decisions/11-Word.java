@@ -38,6 +38,25 @@ public class Word
         }
         return partName + endName;
     }
+    
+//     Shorter version of getPluralForm()
+//     public String getPluralForm()
+//     {
+//         int last = letters.length() - 1; //index of last letter
+//         if(isConsonant(last-1) && is(last,"y"))
+//            {
+//                return letters.substring(0,last)+"ies";
+//            }
+//         // If the word ends in y preceded by a vowel, you just add an s.
+//         // You add an es when a word ends in o, or s, or sh, or ch.
+//         else if (is(last,"o") 
+//                  || is(last,"s")
+//                  || (is(last,"h") && is(last-1,"s"))
+//                  || (is(last,"h") && is(last-1,"c"))               
+//                 )
+//         {return letters+"es";}
+//         else {return letters+"s";}
+//     }
 
     /**
        Tests whether the ith letter is a vowel.
