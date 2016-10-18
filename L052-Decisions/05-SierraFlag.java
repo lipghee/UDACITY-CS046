@@ -7,7 +7,7 @@ public class Flag
     public Color getColorAt(int x, int y)
     {
         Color c;
-        if ((x >= width/3) && (x < 2 * width/3) && (y>=height/3 && y<2*height/3))
+        if ((x >= width/3) && (x < width*2/3) && (y>=height/3 && y< height*2/3))
         {
             c = Color.BLUE;
         }
