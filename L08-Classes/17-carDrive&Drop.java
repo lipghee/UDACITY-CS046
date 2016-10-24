@@ -76,6 +76,22 @@ public class Car
             }
         }
         return;
+        
+        /*
+           location++;
+           while (i < passengers.size())
+           {
+                Person p = passengers.get(i);
+                if (p.getDestination() == location)
+                {
+                    passengers.remove(i);
+                }
+                else 
+                {
+                    i++;
+                }
+           }
+        */
     }
  
     public String toString()
