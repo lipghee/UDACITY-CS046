@@ -73,6 +73,17 @@ public class Simulation
                 }
             }
         }
+        
+        /*  
+        for (Person p : people)
+        {
+            boolean added = false;
+            for (in i = 0; !added && i < cars.size(); i++)
+            {
+                added = cars.get(i).tryToAdd(p);
+            }
+        }
+        */
     }
 
     /**
